@@ -1,0 +1,98 @@
+.sk {
+    position: absolute;
+    border-left: 1px solid #c81543;
+    left: 190px;
+    top: 30px;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_con {
+    float: right;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: inline-block;
+    width: 90px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    flood-color: #000000;
+    padding: 0;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: inline-block;
+    padding: 0 20px;
+    height: 45px;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.sk_con ul li .more_class::after {
+    content: "\e666";
+    font-family: "iconfont" !important;
+}
+
+.sk_container .sk_bd {
+    width: 1200px;
+    height: 924px;
+}
+
+.sk_container .sk_bd ul li {
+    float: left;
+    width: 294px;
+    height: 458px;
+    margin: 10px 3px 3px 3px;
+}
+
+.sk_container .sk_bd ul li img {
+    text-align: center;
+    width: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.sk_container .sk_bd ul li h4 {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sk_container .sk_bd ul li .sk1 {
+    color: #e60012;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.sk_container .sk_bd ul li .sk2 {
+    font-size: 14px;
+    padding-left: 8px;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.sk_container .sk_bd ul li .sk3 a {
+    display: block;
+    width: 280px;
+    height: 50px;
+    margin: 0 7px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}

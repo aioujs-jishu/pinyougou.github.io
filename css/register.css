@@ -1,0 +1,169 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.register_area {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.register_area h3 {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81523;
+}
+
+.reg_form {
+    position: relative;
+    width: 600px;
+    margin: 50px auto 0;
+    background-color: #fff;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li .inp {
+    position: relative;
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.psd_1 {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.psd_2 {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li .btn_yz {
+    height: 37px;
+    background-color: #4e6ef2;
+    border: 1px solid #ccc;
+    margin-left: 0px;
+    color: #fff;
+}
+
+.error {
+    display: none;
+    color: #c81523;
+}
+
+.error .error_icon {
+    display: none;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1px;
+    background: url(../images/红叉.png) no-repeat;
+}
+
+.sucess {
+    color: green;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/绿对号.png);
+}
+
+.safe {
+    padding-left: 160px;
+    color: #ccc;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 100px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.submit_reg {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 100px;
+}
+
+
+/* 隐藏眼睛 */
+
+.eye_1 {
+    position: absolute;
+    top: 182px;
+    right: 266px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.eye_2 {
+    position: absolute;
+    top: 276px;
+    right: 266px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
