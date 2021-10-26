@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bace.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="shortcut icon" href=" favicon.ico" />
+    <style type="text/css" src="css/register.css"></style>
+    <script type="text/javascript" src="js/register.js"></script>
+    <style type="text/css" src="css/bace.css"></style>
+
+</head>
+<title>用户注册</title>
+</head>
+
+<body>
+    <div class="w">
+
+        <header>
+            <div class="logo">
+                <a href="index.html" target="_blank"><img src="images/logo.png" alt="" title="返回首页"></a>
+            </div>
+        </header>
+        <div class="register_area">
+            <h3>
+                注册新用户
+                <div class="login">
+                    已有账号?直接<a href="login.html">登录</a>
+                </div>
+            </h3>
+            <div class="reg_form">
+                <form action="">
+                    <ul>
+                        <li>
+                            <label for="">手机号：</label>
+                            <input type="tel" id="tel" name="tel" class="inp">
+                            <button class="btn_yz">发送验证码</button>
+                            <span class="error"><i class="error_icon"></i>您输入格式有误</span>
+                        </li>
+                        <li>
+                            <label for="">邮箱：</label>
+                            <input type="email" id="email" name="email" placeholder="" class="inp">
+                            <span class="error"><i class="error_icon"></i>您输入格式有误</span>
+                        </li>
+                        <li><label for="">验证码：</label> <input type="text" id="txt" name="txt" class="inp"> <span class="error" class="inp"><i class="error_icon"></i>您输入格式有误</span></li>
+                        <li><label for="">
+                           <img src="images/隐藏.png" alt="" class="eye_1">
+                            密码：</label> <input type="password" id="password" name="password" class="psd_1"> <span class="error"><i class="error_icon"></i>您输入格式有误</span></li>
+                        <li class="safe">安全程度 <em class="ruo">弱</em> <em class="zhong">中</em> <em class="qiang">强</em></li>
+                        <li><label for="">
+                            <img src="images/隐藏.png" alt="" class="eye_2">
+                            确认密码：</label>
+                            <input type="password" id="password" name="password" class="psd_2">
+
+                            <span class="error"><i class="error_icon"></i>您输入格式有误</span>
+                        </li>
+                        <li class="agree"><input type="checkbox">同意协议
+                            <a href="#">
+                                《同意服务条款》</a>
+                        </li>
+                        <li> <input type="submit" value="完成注册" class="submit_reg"> </li>
+                    </ul>
+
+                </form>
+
+            </div>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
